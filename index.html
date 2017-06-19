@@ -1,197 +1,319 @@
-<!-- Developed 2017 - Copeland Felts - OPEN_Engineering -->
-
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width">
-        <meta name="description" content="Powering the future of technology with DEVELOPERs and MAKERs">
-        <meta name="keywords" content="developer, maker, web, internet, technology, design, future, space, exploration, computers, computer science, open source">
-        <meta name="author" content="Charles C. Felts">
-        
-        <title> OPEN_Engineering | We Welcome You to the FUTURE_ </title>
-        <link rel="stylesheet" href="./CSS Files/style.css">
+<title>OPEN_Engineering | Welcome to future. We're glad you came.</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+html,body,h1,h2,h3,h4 {font-family:"Lato", sans-serif; background-color: #6B7A8F;}
+.mySlides {display:none}
+.w3-tag, .fa {cursor:pointer}
+.w3-tag {height:15px;width:15px;padding:0;margin-top:6px}
+.highlight{
+    color:#FFA500;
+    font-weight: bold;
+    font-size:larger;
+}
+.w3-panel{
+    font-weight: bold;
+    font-size:x-large;
+}
+.w3-col{
+    color:#FFFFFF;
+}
+</style>
+<body>
+
+<!-- Links (sit on top) -->
+<div class="w3-top">
+  <div class="w3-row w3-large w3-orange">
+    <div class="w3-col s3">
+      <a href="#" class="w3-button w3-block"><b>ABOUT</b></a>
+    </div>
+    <div class="w3-col s3">
+      <a href="#plans" class="w3-button w3-block"><b>NEWS</b></a>
+    </div>
+    <div class="w3-col s3">
+      <a href="#about" class="w3-button w3-block"><b>PROJECTS</b></a>
+    </div>
+    <div class="w3-col s3">
+      <a href="#contact" class="w3-button w3-block"><b>CONNECT</b></a>
+    </div>
+  </div>
+</div>
+
+<!-- Content -->
+<div class="w3-content" style="max-width:1100px;margin-top:50px;margin-bottom:60px">
+
+  <div class="w3-panel">
+    <h1><span class="highlight">OPEN_</span>Engineering</h1>
+    
+  </div>
+
+  <!-- Slideshow -->
+  <div class="w3-container">
+    <div class="w3-display-container mySlides">
+      <img src="./Images/siteIM_1.jpeg" style="width:100%">
+      <div class="w3-display-topleft w3-container w3-padding-32">
+        <span class="w3-white w3-padding-large w3-animate-opacity">Lorem ipsum</span>
+      </div>
+    </div>
+    <div class="w3-display-container mySlides">
+      <img src="./Images/siteIM_2.jpeg" style="width:100%">
+      <div class="w3-display-middle w3-container w3-padding-32">
+        <span class="w3-white w3-padding-large w3-animate-opacity">Klorim tipsum</span>
+      </div>
+    </div>
+    <div class="w3-display-container mySlides">
+      <img src="./Images/siteIM_3.jpeg" style="width:100%">
+      <div class="w3-display-topright w3-container w3-padding-32">
+        <span class="w3-white w3-padding-large w3-animate-opacity">Blorum pipsum</span>
+      </div>
+    </div>
+     <div class="w3-display-container mySlides">
+      <img src="./Images/siteIM_4.jpeg" style="width:100%">
+      <div class="w3-display-topright w3-container w3-padding-32">
+        <span class="w3-white w3-padding-large w3-animate-opacity">Blorum pipsum</span>
+      </div>
+    </div>
+     <div class="w3-display-container mySlides">
+      <img src="./Images/siteIM_5.jpeg" style="width:100%">
+      <div class="w3-display-topright w3-container w3-padding-32">
+        <span class="w3-white w3-padding-large w3-animate-opacity">Blorum pipsum</span>
+      </div>
+    </div>
+     <div class="w3-display-container mySlides">
+      <img src="./Images/siteIM_6.jpeg" style="width:100%">
+      <div class="w3-display-topright w3-container w3-padding-32">
+        <span class="w3-white w3-padding-large w3-animate-opacity">Blorum pipsum</span>
+      </div>
+    </div>
+     <div class="w3-display-container mySlides">
+      <img src="./Images/siteIM_7.jpeg" style="width:100%">
+      <div class="w3-display-topright w3-container w3-padding-32">
+        <span class="w3-white w3-padding-large w3-animate-opacity">Blorum pipsum</span>
+      </div>
+    </div>
+     <div class="w3-display-container mySlides">
+      <img src="./Images/siteIM_8.jpeg" style="width:100%">
+      <div class="w3-display-topright w3-container w3-padding-32">
+        <span class="w3-white w3-padding-large w3-animate-opacity">Blorum pipsum</span>
+      </div>
+    </div>
+
+    <!-- Slideshow next/previous buttons -->
+    <div class="w3-container w3-orange w3-padding w3-xlarge">
+      <div class="w3-left" onclick="plusDivs(-1)"><i class="fa fa-arrow-circle-left w3-hover-text-teal"></i></div>
+      <div class="w3-right" onclick="plusDivs(1)"><i class="fa fa-arrow-circle-right w3-hover-text-teal"></i></div>
+    
+      <div class="w3-center">
+        <span class="w3-tag demodots w3-border w3-transparent w3-hover-white" onclick="currentDiv(1)"></span>
+        <span class="w3-tag demodots w3-border w3-transparent w3-hover-white" onclick="currentDiv(2)"></span>
+        <span class="w3-tag demodots w3-border w3-transparent w3-hover-white" onclick="currentDiv(3)"></span>
+        <span class="w3-tag demodots w3-border w3-transparent w3-hover-white" onclick="currentDiv(4)"></span>
+        <span class="w3-tag demodots w3-border w3-transparent w3-hover-white" onclick="currentDiv(5)"></span>
+        <span class="w3-tag demodots w3-border w3-transparent w3-hover-white" onclick="currentDiv(6)"></span>
+        <span class="w3-tag demodots w3-border w3-transparent w3-hover-white" onclick="currentDiv(7)"></span>
+        <span class="w3-tag demodots w3-border w3-transparent w3-hover-white" onclick="currentDiv(8)"></span>
+      </div>
+    </div>
+  </div>
   
-        <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-        <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
-        <style>.carousel-inner > .item > img { width:100%; height:700px; } </style>
-    </head>
-    <body>
-        
-        <nav class="navbar navbar-default">
-          <div class="container-fluid">
-            <!-- Brand and toggle get grouped for better mobile display -->
-            <div class="navbar-header">
-              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-                <span class="sr-only">Toggle navigation</span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-              </button>
-              <a class="navbar-brand" href="#"><span class="highlight">OPEN_</span>Engineering</a>
-            </div>
-        
-            <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-              <ul class="nav navbar-nav">
-                <li class="active"><a href="#">Link <span class="sr-only">(current)</span></a></li>
-                <li><a href="#">Link</a></li>
-                <li class="dropdown">
-                  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
-                  <ul class="dropdown-menu">
-                    <li><a href="#">Action</a></li>
-                    <li><a href="#">Another action</a></li>
-                    <li><a href="#">Something else here</a></li>
-                    <li role="separator" class="divider"></li>
-                    <li><a href="#">Separated link</a></li>
-                    <li role="separator" class="divider"></li>
-                    <li><a href="#">One more separated link</a></li>
-                  </ul>
-                </li>
-              </ul>
-              <form class="navbar-form navbar-left">
-                <div class="form-group">
-                  <input type="text" class="form-control" placeholder="Search">
-                </div>
-                <button type="submit" class="btn btn-default">Submit</button>
-              </form>
-              <ul class="nav navbar-nav navbar-right">
-                <li class="current"><a href="index.html">Home</a></li>
-                        <li><a href="#">About</a></li>
-                        <li><a href="#">News</a></li>
-                        <li><a href="#">Projects</a></li>
-                        <li><a href="#">Community</a></li>
-                <li class="dropdown">
-                  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
-                  <ul class="dropdown-menu">
-                    <li><a href="#">Action</a></li>
-                    <li><a href="#">Another action</a></li>
-                    <li><a href="#">Something else here</a></li>
-                    <li role="separator" class="divider"></li>
-                    <li><a href="#">Separated link</a></li>
-                  </ul>
-                </li>
-              </ul>
-            </div><!-- /.navbar-collapse -->
-          </div><!-- /.container-fluid -->
-        </nav>
-        
-        <header>
-            <!--
-            <div class="container">
-                <div id="LOGO">
-                    <h1><span class="highlight">OPEN_</span>Engineering</h1>
-                </div>
-                <nav>
-                    <ul>
-                        <li class="current"><a href="index.html">Home</a></li>
-                        <li><a href="#">About</a></li>
-                        <li><a href="#">News</a></li>
-                        <li><a href="#">Projects</a></li>
-                        <li><a href="#">Community</a></li>
-                    </ul>
-                </nav>
-            </div>
-         <div class="container">
-            <ul class="nav nav-tabs nav-justified">
-              <li><a href="#">Developers</a></li>
-              <li><a href="#">Makers</a></li>
-              <li><a href="#">Forums</a></li>
-              <li><a href="#">Connect</a></li>
-            </ul>
-         </div>
-        </header>
-        -->
-        <div id="myCarousel" class="carousel slide" data-ride="carousel">
-              <!-- Indicators -->
-              <ol class="carousel-indicators">
-                <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-                <li data-target="#myCarousel" data-slide-to="1"></li>
-                <li data-target="#myCarousel" data-slide-to="2"></li>
-                <li data-target="#myCarousel" data-slide-to="3"></li>
-                <li data-target="#myCarousel" data-slide-to="4"></li>
-                <li data-target="#myCarousel" data-slide-to="5"></li>
-                <li data-target="#myCarousel" data-slide-to="6"></li>
-                <li data-target="#myCarousel" data-slide-to="7"></li>
-              </ol>
-              <!-- Wrapper for slides -->
-              <div class="carousel-inner">
-                <div class="item active">
-                  <img src="/PROJECTZERO/Images/siteIM_1.jpeg" alt="">
-                </div>
-                    <div class="item">
-                      <img src="/PROJECTZERO/Images/siteIM_2.jpeg" alt="">
-                    </div>
-                        <div class="item">
-                          <img src="/PROJECTZERO/Images/siteIM_3.jpeg" alt="">
-                        </div>
-                             <div class="item">
-                              <img src="/PROJECTZERO/Images/siteIM_4.jpeg" alt="">
-                            </div>
-                             <div class="item">
-                              <img src="/PROJECTZERO/Images/siteIM_5.jpeg" alt="">
-                            </div>
-                         <div class="item">
-                          <img src="/PROJECTZERO/Images/siteIM_6.jpeg" alt="">
-                        </div>
-                     <div class="item">
-                      <img src="/PROJECTZERO/Images/siteIM_7.jpeg" alt="">
-                    </div>
-                 <div class="item">
-                  <img src="/PROJECTZERO/Images/siteIM_8.jpeg" alt="">
-                </div>
-              </div>
-            
-              <!-- Left and right controls -->
-              <a class="left carousel-control" href="#myCarousel" data-slide="prev">
-                <span class="glyphicon glyphicon-chevron-left"></span>
-                <span class="sr-only">Previous</span>
-              </a>
-              <a class="right carousel-control" href="#myCarousel" data-slide="next">
-                <span class="glyphicon glyphicon-chevron-right"></span>
-                <span class="sr-only">Next</span>
-              </a>
+  <!-- Grid -->
+  <div class="w3-row w3-container">
+    <div class="w3-center w3-padding-64">
+      <span class="w3-xlarge w3-bottombar w3-border-dark-grey w3-padding-16"><b>What We Offer</b></span>
+    </div>
+    <div class="w3-col l3 m6 w3-light-grey w3-container w3-padding-16">
+      <h3>DEVELOPERS</h3>
+      <p></p>
+    </div>
+
+    <div class="w3-col l3 m6 w3-grey w3-container w3-padding-16">
+      <h3>MAKERS</h3>
+      <p></p>
+    </div>
+
+    <div class="w3-col l3 m6 w3-dark-grey w3-container w3-padding-16">
+      <h3>FORUMS</h3>
+      <p></p>
+    </div>
+
+    <div class="w3-col l3 m6 w3-orange w3-container w3-padding-16">
+      <h3>COMMUNITY</h3>
+      <p></p>
+    </div>
+  </div>
+
+  <!-- Grid -->
+  <div class="w3-row-padding" id="plans">
+    <div class="w3-center w3-padding-64">
+      <h1><span class="highlight">OPEN_</span>Engineering</h1>
+      <p></p>
+    </div>
+
+    <div class="w3-third w3-margin-bottom">
+      <ul class="w3-ul w3-border w3-center w3-hover-shadow">
+        <li class="w3-dark-grey w3-xlarge w3-padding-32">_dEVELOPERS</li>
+        <li class="w3-padding-16 w3-light-grey"><b></b> </li>
+        <li class="w3-padding-16 w3-light-grey"><b></b> </li>
+        <li class="w3-padding-16 w3-light-grey"><b></b> </li>
+        <li class="w3-padding-16 w3-light-grey"><b></b> </li>
+        <li class="w3-padding-16 w3-light-grey">
+          <h2 class="w3-wide"></h2>
+          <span class="w3-opacity"></span>
+        </li>
+        <li class="w3-grey w3-padding-24">
+          <button class="w3-button w3-orange w3-padding-large"><b>ENTER</b></button>
+        </li>
+      </ul>
+    </div>
+
+    <div class="w3-third w3-margin-bottom">
+      <ul class="w3-ul w3-border w3-center w3-hover-shadow">
+        <li class="w3-dark-grey w3-xlarge w3-padding-32">_mAKERS</li>
+        <li class="w3-padding-16 w3-light-grey"><b></b> </li>
+        <li class="w3-padding-16 w3-light-grey"><b></b> </li>
+        <li class="w3-padding-16 w3-light-grey"><b></b> </li>
+        <li class="w3-padding-16 w3-light-grey"><b></b> </li>
+        <li class="w3-padding-16 w3-light-grey">
+          <h2 class="w3-wide"></h2>
+          <span class="w3-opacity"></span>
+        </li>
+        <li class="w3-grey w3-padding-24">
+          <button class="w3-button w3-orange w3-padding-large"><b>ENTER</b></button>
+        </li>
+      </ul>
+    </div>
+
+    <div class="w3-third w3-margin-bottom">
+      <ul class="w3-ul w3-border w3-center w3-hover-shadow">
+        <li class="w3-dark-grey w3-xlarge w3-padding-32">_tECHIES</li>
+        <li class="w3-padding-16 w3-light-grey"><b></b> </li>
+        <li class="w3-padding-16 w3-light-grey"><b></b> </li>
+        <li class="w3-padding-16 w3-light-grey"><b></b> </li>
+        <li class="w3-padding-16 w3-light-grey"><b></b> </li>
+        <li class="w3-padding-16 w3-light-grey">
+          <h2 class="w3-wide"></h2>
+          <span class="w3-opacity"></span>
+        </li>
+        <li class="w3-grey w3-padding-24">
+          <button class="w3-button w3-orange w3-padding-large"><b>ENTER</b></button>
+        </li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- Grid -->
+  <div class="w3-row-padding" id="about">
+    <div class="w3-center w3-padding-64">
+      <span class="w3-xxlarge w3-bottombar w3-border-dark-grey w3-padding-16"><span class="highlight">OPEN_</span>Source</span>
+    </div>
+
+    <div class="w3-third w3-margin-bottom">
+      <div class="w3-card-4">
+        <img src="" alt="" style="width:100%">
+        <div class="w3-container">
+          <h3></h3>
+          <p class="w3-opacity"></p>
+          <p></p>
+          <p><button class="w3-button w3-light-grey w3-block"></button></p>
         </div>
-        <!--
-        <section id="NEWSLETTER">
-            <div id="container">
-                <h1>Subscribe to Our Newsletter</h1>
-                <form>
-                    <input type="email" placeholder="Enter Email...">
-                    <button type="submit" class="button_1">Subscribe</button>
-                </form>
-            </div>
-        </section>
-        -->
-        <section id="boxes">
-            <div class="container">
-                <div class="box">
-                    <img src="">
-                    <h3></h3>
-                    <p></p>
-                </div>
-                <div class="box">
-                    <img src="">
-                    <h3></h3>
-                    <p></p>
-                </div>
-                <div class="box">
-                    <img src="">
-                    <h3></h3>
-                    <p></p>
-                </div>
-                <div class="box">
-                    <img src="">
-                    <h3></h3>
-                    <p></p>
-                </div>
-            </div>
-        </section>
-        
-        <footer>
-            <p>OPEN_Engineering | Copyright &copy; 2017</p>
-        </footer>
-        
-    </body>
+      </div>
+    </div>
+
+   
+    <div class="w3-third w3-margin-bottom">
+      <div class="w3-card-4">
+        <img src=" " alt="" style="width:100%">
+        <div class="w3-container">
+          <h3></h3>
+          <p class="w3-opacity"></p>
+          <p></p>
+          <p><button class="w3-button w3-light-grey w3-block"></button></p>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+
+  <!-- Contact -->
+  <div class="w3-center w3-padding-64" id="contact">
+    <span class="w3-xxlarge w3-bottombar w3-border-dark-grey w3-padding-16"><b>Contact Us</b></span>
+  </div>
+
+  <form class="w3-container" action="/action_page.php" target="_blank">
+    <div class="w3-section">
+      <label><b>Name</b></label>
+      <input class="w3-input w3-border w3-hover-border-black" style="width:100%;" type="text" name="Name" required>
+    </div>
+    <div class="w3-section">
+      <label><b>Email</b></label>
+      <input class="w3-input w3-border w3-hover-border-black" style="width:100%;" type="text" name="Email" required>
+    </div>
+    <div class="w3-section">
+      <label><b>Subject</b></label>
+      <input class="w3-input w3-border w3-hover-border-black" style="width:100%;" name="Subject" required>
+    </div>
+    <div class="w3-section">
+      <label><b>Message</b></label>
+      <input class="w3-input w3-border w3-hover-border-black" style="width:100%;" name="Message" required>
+    </div>
+    <button type="submit" class="w3-button w3-block w3-orange"><b>Send</b></button>
+  </form>
+
+</div>
+
+<!-- Footer -->
+
+<footer class="w3-container w3-padding-32 w3-light-grey w3-center">
+  <h4><span class="highlight">OPEN_</span><b>Engineering</b></span> <b>| &copy 2017</b> </h4>
+  <a href="#" class="w3-button w3-orange w3-margin"><i class="fa fa-arrow-up w3-margin-right"></i><b>To the top</b></a>
+  <div class="w3-xlarge w3-section">
+    <i class="fa fa-facebook-official w3-hover-opacity"></i>
+    <i class="fa fa-instagram w3-hover-opacity"></i>
+    <i class="fa fa-snapchat w3-hover-opacity"></i>
+    <i class="fa fa-pinterest-p w3-hover-opacity"></i>
+    <i class="fa fa-twitter w3-hover-opacity"></i>
+    <i class="fa fa-linkedin w3-hover-opacity"></i>
+  </div>
+</footer>
+
+
+<script>
+// Slideshow
+var slideIndex = 1;
+showDivs(slideIndex);
+
+function plusDivs(n) {
+  showDivs(slideIndex += n);
+}
+
+function currentDiv(n) {
+  showDivs(slideIndex = n);
+}
+
+function showDivs(n) {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("demodots");
+  if (n > x.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = x.length} ;
+  for (i = 0; i < x.length; i++) {
+      x[i].style.display = "none";
+    }
+  for (i = 0; i < dots.length; i++) {
+     dots[i].className = dots[i].className.replace(" w3-white", "");
+  }
+  slideIndex++;
+    if (slideIndex > x.length) {slideIndex = 1}
+    x[slideIndex-1].style.display = "block";
+    setTimeout(showDivs,10000); // Change image every 10 seconds
+    dots[slideIndex-1].className += " w3-white";
+}
+</script>
+
+</body>
 </html>
